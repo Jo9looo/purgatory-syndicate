@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6, type: 3}
+  m_Name: Char_Exorcist
+  m_EditorClassIdentifier: 
+  baseStats: {fileID: 11400000, guid: a1111111111111111111111111111111, type: 2}
+  skills:
+  - {fileID: 11400000, guid: a3333333333333333333333333333333, type: 2}
+  - {fileID: 11400000, guid: c3333333333333333333333333333333, type: 2}
+  - {fileID: 11400000, guid: c4444444444444444444444444444444, type: 2}
+  defenseSkill: {fileID: 11400000, guid: d084b4b18af3f8d4da4648cc36685107, type: 2}
+  sinAffinities:
+  - 0
+  - 4
