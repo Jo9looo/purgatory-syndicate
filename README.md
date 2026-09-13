@@ -1,15 +1,17 @@
 # Purgatory Syndicate
 
+> **Raw development.** This repository is an early, unfinished prototype. Systems, numbers, scenes, and the public API will change without notice. There is no release build, no final art, and no stability guarantee. Clone it to experiment and playtest — not as a finished game.
+
 **Tactical exorcism in Purgatory.** A 2.5D turn-based tactical RPG whose combat is built around contested clashes, coin rolls, and a seven-sin affinity system.
 
-Combat draws from *Limbus Company* and *Library of Ruina*: two skills meet head-on, power is rolled coin by coin, and the loser pays for it. The project is currently a **playable whitebox** — the full battle loop, targeting, HUD, and a three-stage run are in place, using primitive capsules instead of final art.
+Combat draws from *Limbus Company* and *Library of Ruina*: two skills meet head-on, power is rolled coin by coin, and the loser pays for it. What exists today is a **playable whitebox** in raw development: the battle loop, targeting, debug HUD, and a three-stage run work end to end, using primitive capsules instead of production art.
 
 | | |
 |---|---|
 | Engine | Unity 6 (`6000.5.7f1`) |
 | Genre | 2.5D turn-based tactical RPG |
 | Input | Mouse (drag targeting) + keyboard |
-| Status | Whitebox prototype — playable end to end |
+| Status | **Raw development** — whitebox prototype, not production-ready |
 
 Internal design notes and sprint history live in [`DEVELOPMENT_PLAN.md`](DEVELOPMENT_PLAN.md).
 
@@ -41,7 +43,7 @@ Internal design notes and sprint history live in [`DEVELOPMENT_PLAN.md`](DEVELOP
 - **Rule-based enemy AI** — defends when stagger is critical, focuses the weakest ally, prefers effective / affordable skills
 - **Three-stage run** — win to advance, restart the current stage, or return to the menu and reset
 
-What is **not** in yet: final character art, polished UGUI, VFX / SFX, camera work, and serious number balancing.
+What is **not** in yet: final character art, polished UGUI, VFX / SFX, camera work, save data, and serious number balancing. Expect bugs, placeholder visuals, and frequent design changes. This is still raw development.
 
 ---
 
@@ -270,4 +272,4 @@ git push
 
 ---
 
-This repository is a work-in-progress prototype. Systems and numbers will change as the whitebox is playtested.
+This repository is in **raw development**. Treat everything here as unstable prototype work. Systems, content, and numbers will change as the whitebox is playtested.
